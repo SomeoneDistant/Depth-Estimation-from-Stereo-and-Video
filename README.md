@@ -1,1 +1,1 @@
-# Depth-Estimation-from-Stereo-and-Video
+# Depth Estimation from Stereo and Video
