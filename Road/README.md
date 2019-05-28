@@ -26,6 +26,7 @@ For example, about the 0th frame of depth map file "_depth0.raw", you can read i
 
 #include "stdio.h"
 
+```
 int main()
 {
 	int iWidth = 960;
@@ -44,3 +45,4 @@ int main()
 
 	return 0;
 }
+``
