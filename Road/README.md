@@ -19,14 +19,12 @@ T (camera position):  the final line
 
 "depth" directory contains all depth maps.
 
-
 Each depth map is stored as a raw float file. Note that the depth value is stored by inverse depth (disparity), i.e. 1/z. Note the (0,0) coordinate of an image is located in the top left corner.
 
 For example, about the 0th frame of depth map file "_depth0.raw", you can read it using the following C++ code:
-
+```
 #include "stdio.h"
 
-```
 int main()
 {
 	int iWidth = 960;
